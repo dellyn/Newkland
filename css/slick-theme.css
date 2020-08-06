@@ -1,0 +1,125 @@
+.contest .slick-dots{
+    width: 92%;
+    left: 0;
+}
+.contest .arrow{
+    z-index: 2;
+        bottom: 39.5px;
+        margin-right: 7px;
+}
+.people_part .slick-dots, .people_part_second .slick-dots{
+    width: 100%; !important;
+
+}
+.slick-prev,.slick-next{z-index: 0;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    display: block;
+    background: transparent;
+    color: #fff;
+    width: 115px;
+    height: 80%;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.slick-prev{
+    left: -100px;
+}
+.slick-next{
+    right: -100px;
+}
+.slick-dots{
+    position: absolute;
+    display: block;
+    width: 92%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: transparent;
+    text-align: center;
+    top: 350px;
+    left: 0;
+    z-index: 0;
+}
+.last_article_content .slick-dots{
+    top: 140px;
+    text-align: left;
+    max-width: 990px;
+
+}
+.last_article_content .slick-dots li{
+   max-height: none;
+    width: 165px;
+    overflow: hidden;
+}
+.blog .last_article .arrow{
+    bottom: 13px;
+}
+.contest2 .people_part .arrow{
+    bottom: 22px;
+}
+.arrow{
+
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    border: 1.2px solid #d7d7d7;
+    color: #939393;
+    border-radius: 50%;
+    z-index: 2 !important;
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    cursor: pointer;
+    bottom: 35px;
+
+}
+.prev_arrow{
+    z-index: 1;
+
+    right: 40px;
+    padding-left: 2px;
+}
+.next_arrow{z-index: 1;
+    padding-right: 2px;
+    right: 0px;
+}
+.slick-dots li{
+    background-color: #e1e1e1;
+    position: relative;
+    display: inline-block;
+    width: 16.4%;
+    height: 5px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.slick-dots li button{
+    display: block;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background-color: #10bc78;
+}
+.slick-dots li.slick-active button:before{
+    border-radius: 30px;
+    transition: 0s ease;
+    width: 200px;
+    height: 5px;
+}
+:active,:focus{
+    outline: none;border: 0px;
+}
