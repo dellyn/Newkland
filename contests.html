@@ -1,5 +1,81 @@
-<?php include('html/head.html') ?>
-<?php include('php/user_nav.php') ?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Newcland</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Fonts -->
+	<script src="https://kit.fontawesome.com/5881e4981e.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font.css">
+<!-- Css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/prefix.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<header class="header_top user_header_top">
+  <div class="container">
+    <div class="top_slidebar_back">
+      <div class="top_slidebar" href="#"><span class="slider_span"></span></div>
+    </div>
+    <ul class="radio_user radio radio_active">
+      <li class="slide slide_user">
+        <span class="slide_span"></span>
+        <a href="user.html"><span>1</span> Мой профиль</a>
+        <a href="friends.html"
+          ><i class="fa fa_slide fa-users"></i><span>1</span> Друзья</a
+        >
+        <a href="sms.html"
+          ><i class="fa fa_slide fa-comments"></i><span>1</span> Письма</a
+        >
+
+        <a href="news.html"
+          ><i class="far fa_slide fa-bell"></i><span>1</span> Новости</a
+        >
+        <a href="contest.html"
+          ><i class="fas fa_slide fa-trophy"></i><span>1</span> Конкурсы</a
+        >
+        <a href="bookmark.html"
+          ><i class="far fa_slide fa-bookmark"></i><span>1</span> Закладки</a
+        >
+        <a href="#"
+          ><i class="fas fa_slide fa-wallet"></i><span>1</span>15 000 руб.</a
+        >
+        <a href="settings.html"
+          ><i class="fas fa_slide fa-cog"></i><span>1</span> Настройки</a
+        >
+        <a href="#"
+          ><i class="fa fa_slide fa-sign-out-alt"></i><span>1</span> Выход</a
+        >
+      </li>
+    </ul>
+    <ul class="menu por clearfix">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="about.html">О проекте</a></li>
+      <li><a href="contest.html">Библиотека</a></li>
+      <li><a href="article.html">Блог</a></li>
+      <li><a href="completition.html">Конкурсы</a></li>
+      <li><a href="404.html">Аукцион</a></li>
+      <li><a href="games.html">Игры</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <a class="modal_reg" href="#">Регистрация</a>
+      <div class="my_account">
+        <img src="img/profile.png" alt="" />
+        <a href="user.html" class="">Анна Соломина</a>
+      </div>
+    </ul>
+
+    <a href="#" class="menu_btn"><span></span></a>
+    <div class="alarm">
+      <img src="img/people1.png" alt="" class="alarm_img" />
+      <p class="alarm_txt">Виктория Андреева подтвердила ваш запрос в друзья</p>
+      <p class="all_alarm">Все оповещения <span>(7)</span></p>
+    </div>
+  </div>
+</header>
+
 
 <section class="user fin archive2 contest3">
 	<div class="container archive">
@@ -240,9 +316,104 @@
 	
 	
 </div>
-<?php include 'php/touch.php'; ?>
+<div class="touch">
+	<div class="touch_content">
+		<div class="touch_block anime">
+			<a href="#"><img src="img/post_touch1.jpg" alt="" class="touch_img"></a>
+			<div class="touch_right">	
+				<time class="head_data">08.04.19</time>
+				<a href="#">Топ-5  средств для младенцев</a>
+			</div>		
+		</div>
+		<div class="touch_block anime">
+			<a href="#"><img src="img/post_touch2.jpg" alt="" class="touch_img"></a>
+			<div class="touch_right">	
+				<time class="head_data">05.04.19</time>
+				<a href="#">Развитие детей с помощью новых методов</a>
+			</div>		
+		</div>
+		<div class="touch_block anime">
+			<a href="#"><img src="img/post_touch3.jpg" alt="" class="touch_img"></a>
+			<div class="touch_right">	
+				<time class="head_data">30.03.19</time>
+				<a href="#">Книги для детей от 3 лет</a>
+			</div>		
+		</div>
+		<div class="touch_block anime">
+			<a href="#"><img src="img/post_touch4.jpg" alt="" class="touch_img"></a>
+			<div class="touch_right">	
+				<time class="head_data">28.04.19</time>
+				<a href="#">Симптомы первой беременности</a>
+			</div>		
+		</div>
+		<div class="contest_go">
+			<p>Литературный конкурс</p>
+			<p>Стихотворение о Ньюке</p>
+			<i class="fa fa-users"><span>17</span></i>
+			<a class="king_btn btn2">Принять участие</a>
+		</div>
+	</div>
+</div>
 			
 		</div>
 	</div>
 </section>
-<?php include 'html/footer.html'; ?>
+<footer class="footer">
+	<div class="container">
+		<div class="footer_layer">	
+			<div class="footer_info">
+				<h2 class="footer_title">Ньюкленд</h2>
+				<p class="footer_paragraph">Основная цель нашего проекта – раскрыть таланты ребенка. Проявить его первые достижения и успехи на конкурсах. Научить ставить перед собой цели и стремиться достичь их.</p>	
+			</div>
+			<div class="footer_subscribe">
+				<p class="subscribe_txt">Подписка на новости</p>
+				<form action="" class="form" method="get">
+					<p><input type="text" name="email" placeholder="Е-почта" class="email"></p>
+					<p><input value="Подписаться" type="submit" class="submit btn"></p>
+				</form>
+			</div>
+			<div class="footer_menu">
+				<nav class="menu_table">
+					<p class="menu_txt">Меню</p>
+					<a href="index.html" class="footer_menu_link">Главная</a>
+					<a href="about.html" class="footer_menu_link">О проекте</a>
+					<a href="library.html" class="footer_menu_link">Библиотека </a>
+					<a href="blog.html" class="footer_menu_link">Блог</a>
+				</nav>
+				<nav class="menu_table">
+					<a href="completition.html" class="footer_menu_link">Конкурсы</a>
+					<a href="library-admin.html" class="footer_menu_link">Аукцион</a>
+					<a href="games.html" class="footer_menu_link">Игры </a>
+					<a href="faq.html" class="footer_menu_link">FAQ</a>
+				</nav>
+				<nav class="menu_table">
+					<a href="user.html" class="footer_menu_link">Мой профиль</a>
+					<a href="#" class=" modal_login footer_menu_link">Регистрация</a>
+					<a href="#" class=" modal_reg footer_menu_link">Вход</a>
+				</nav>
+				<div class="social_link">	
+					<a class="social_circle"><i class="fab fa-facebook"></i></a>
+					<a class="social_circle"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="footer_cont">	
+			<div class="line_grey"></div>
+			<div class="container">
+				<p class="secure">2019. Ньюкленд. Все права защищены</p>
+				<p class="dev">Разработка сайта: <a href="https://www.linkedin.com/in/igor-makarchuk-491069192/">Igor Makarchuk</a></p>
+			</div>
+		</div>
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/parallax-mouse.js"></script>
+<script src="js/timer.js"></script></script>
+<script src="js/scripts.js"></script>
+
+
+
+</body>
+</html>

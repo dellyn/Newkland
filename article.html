@@ -1,5 +1,117 @@
-<?php include('html/head.html') ?>
-<?php include('html/nav.html') ?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Newcland</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Fonts -->
+	<script src="https://kit.fontawesome.com/5881e4981e.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font.css">
+<!-- Css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/prefix.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<header class="header_top">
+	<div class="container">
+		<div class="top_slidebar_back"> 
+			<div class="top_slidebar"> <span class="slider_span"></span></div>				
+		</div>
+		 <ul  class="radio rfactive">
+		  	<li class="slide">
+		  		<span class="slide_span"></span>
+		  		<a  href="user.html"><span>1</span> Профиль</a>
+		  		<a  href="fiends.html"><i class="fa fa_slide fa-users"></i><span>1</span> Друзья</a>
+		  		<a  href="sms.html"><i class="fa fa_slide fa-comments"></i><span>1</span> Письма</a>
+		  		<a  href="news.html"><i class="far fa_slide fa-bell"></i><span>1</span> Новости</a>
+		  		<a  href="contest.html"><i class="fas fa_slide fa-trophy"></i><span>1</span> Конкурсы</a>
+		  		<a  href="bookmark.html"><i class="far fa_slide fa-bookmark"></i><span>1</span> Закладки</a>
+		  		<a  href="settings.html"><i class="fas fa_slide fa-cog"></i><span>1</span> Настройки</a>
+		  		<a  href="#"><i class="fa fa_slide fa-sign-out-alt"></i><span>1</span> Выход</a>	
+		  	</li>
+		 </ul>
+		<ul class="menu clearfix">
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about.html">О проекте</a></li>
+			<li><a href="library.html">Библиотека</a></li>
+			<li><a href="blog.html">Блог</a></li>
+			<li><a href="completition.html">Конкурсы</a></li>
+			<li><a href="games.html">Игры</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="404.html">Аукцион &times;</a></li>
+            <li class="menu_item_reg">
+				<a  class="modal_login" href="#">Вход</a> <span> | </span>
+				<a class="modal_reg" href="#">Регистрация</a>
+			</li>
+        </ul>
+			<a href="#" class="menu_btn"><span></span></a>
+		<div class="alarm">
+			<img src="img/people1.png" alt="" class="alarm_img">
+			<p class="alarm_txt">Виктория Андреева подтвердила ваш запрос в друзья</p>
+			<p class="all_alarm">Все оповещения (7)</p>
+		</div>
+	</div>
+</header>
+<div class="modal_layer"></div>
+	<div class="modal modal_login_form">
+		<div class="modal_form_input">
+	        <h3 class="modal_title">Вход</h3>
+	        <p class="modal_paragraph">Войдите чтобы воспользоваться всеми преимуществами портала Ньюкленд</p>
+	        <form action="" class="modal_form" method="get">	
+		        <input  type="text" placeholder="Логин" value="Anet Dellyn " >
+		        <input  type="password" placeholder="Пароль" value="regeditssss">
+	        </form>
+	        	<a href="user.html" class="btn">Войти</a>
+	       	<div class="modal_or">
+	        	<p class="section_paragraph">Еще нет аккаунта?</p>
+	        	<a class="modal_link" href="admin.html">Зарегистрируйтесь</a>
+	        </div>
+	       		<div class="blog_layer">
+					<div class="blog_line"></div>
+					<h3 class="blog_small_title">Вход через</h3>
+				</div>
+	        <div class="social_link">	
+				<div class="social_circle"><i class="fab fa-facebook"></i></div>
+				<div class="social_circle"><i class="fab fa-instagram"></i></div>
+			</div>
+		</div>
+		<div class="modal_bg">
+	  		<img src="img/nuk.png" alt="" class="modal_img">
+		</div>
+	</div>
+	<div class="modal modal_reg_form">
+		<div class="modal_form_input">
+	        <h3 class="modal_title">Регистрация</h3>
+	        <p class="modal_paragraph">Зарегистрируйтесь чтобы воспользоваться всеми преимуществами портала Ньюкленд</p>
+			<form action="" class="modal_form" method="get">
+		        <input  type="text" placeholder="Логин" value="IngvarMakarchuk">
+		        <input  type="email" placeholder="Е-почта" value="dellyn@my.com">
+		        <input  type="password" placeholder="Пароль" value="parolforashkere">
+		        <input  type="password" placeholder="Повторите пароль" value="parolforashkere"  >
+			</form>
+
+	        <a href="admin.html" class="btn">Регистрация</a>
+	        <div class="modal_or">
+	          <p class="section_paragraph">Уже есть аккаунт?</p>
+	          <a class="modal_link" href="#">Войдите</a>
+	         
+	        </div>
+	       		<div class="blog_layer">
+					<div class="blog_line"></div>
+					<h3 class="blog_small_title">Регистрация через</h3>
+				</div>
+	        <div class="social_link">	
+				<div class="social_circle"><i class="fab fa-facebook"></i></div>
+				<div class="social_circle"><i class="fab fa-instagram"></i></div>
+			</div>
+		</div>
+		<div class="modal_bg">
+	  		<img src="img/nuk.png" alt="" class="modal_img">
+		</div>
+	</div>
 
 <section class="post">
 		<div class="post_bg"></div>
@@ -170,4 +282,62 @@
 </section>
 
 
-<?php include 'html/footer.html'; ?>
+<footer class="footer">
+	<div class="container">
+		<div class="footer_layer">	
+			<div class="footer_info">
+				<h2 class="footer_title">Ньюкленд</h2>
+				<p class="footer_paragraph">Основная цель нашего проекта – раскрыть таланты ребенка. Проявить его первые достижения и успехи на конкурсах. Научить ставить перед собой цели и стремиться достичь их.</p>	
+			</div>
+			<div class="footer_subscribe">
+				<p class="subscribe_txt">Подписка на новости</p>
+				<form action="" class="form" method="get">
+					<p><input type="text" name="email" placeholder="Е-почта" class="email"></p>
+					<p><input value="Подписаться" type="submit" class="submit btn"></p>
+				</form>
+			</div>
+			<div class="footer_menu">
+				<nav class="menu_table">
+					<p class="menu_txt">Меню</p>
+					<a href="index.html" class="footer_menu_link">Главная</a>
+					<a href="about.html" class="footer_menu_link">О проекте</a>
+					<a href="library.html" class="footer_menu_link">Библиотека </a>
+					<a href="blog.html" class="footer_menu_link">Блог</a>
+				</nav>
+				<nav class="menu_table">
+					<a href="completition.html" class="footer_menu_link">Конкурсы</a>
+					<a href="library-admin.html" class="footer_menu_link">Аукцион</a>
+					<a href="games.html" class="footer_menu_link">Игры </a>
+					<a href="faq.html" class="footer_menu_link">FAQ</a>
+				</nav>
+				<nav class="menu_table">
+					<a href="user.html" class="footer_menu_link">Мой профиль</a>
+					<a href="#" class=" modal_login footer_menu_link">Регистрация</a>
+					<a href="#" class=" modal_reg footer_menu_link">Вход</a>
+				</nav>
+				<div class="social_link">	
+					<a class="social_circle"><i class="fab fa-facebook"></i></a>
+					<a class="social_circle"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="footer_cont">	
+			<div class="line_grey"></div>
+			<div class="container">
+				<p class="secure">2019. Ньюкленд. Все права защищены</p>
+				<p class="dev">Разработка сайта: <a href="https://www.linkedin.com/in/igor-makarchuk-491069192/">Igor Makarchuk</a></p>
+			</div>
+		</div>
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/parallax-mouse.js"></script>
+<script src="js/timer.js"></script></script>
+<script src="js/scripts.js"></script>
+
+
+
+</body>
+</html>

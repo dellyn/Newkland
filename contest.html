@@ -1,0 +1,739 @@
+
+	<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Newcland</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Fonts -->
+	<script src="https://kit.fontawesome.com/5881e4981e.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font.css">
+<!-- Css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/prefix.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<body>
+	<header class="header_top">
+	<div class="container">
+		<div class="top_slidebar_back"> 
+			<div class="top_slidebar"> <span class="slider_span"></span></div>				
+		</div>
+		 <ul  class="radio rfactive">
+		  	<li class="slide">
+		  		<span class="slide_span"></span>
+		  		<a  href="user.html"><span>1</span> Профиль</a>
+		  		<a  href="fiends.html"><i class="fa fa_slide fa-users"></i><span>1</span> Друзья</a>
+		  		<a  href="sms.html"><i class="fa fa_slide fa-comments"></i><span>1</span> Письма</a>
+		  		<a  href="news.html"><i class="far fa_slide fa-bell"></i><span>1</span> Новости</a>
+		  		<a  href="contest.html"><i class="fas fa_slide fa-trophy"></i><span>1</span> Конкурсы</a>
+		  		<a  href="bookmark.html"><i class="far fa_slide fa-bookmark"></i><span>1</span> Закладки</a>
+		  		<a  href="settings.html"><i class="fas fa_slide fa-cog"></i><span>1</span> Настройки</a>
+		  		<a  href="#"><i class="fa fa_slide fa-sign-out-alt"></i><span>1</span> Выход</a>	
+		  	</li>
+		 </ul>
+		<ul class="menu clearfix">
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about.html">О проекте</a></li>
+			<li><a href="library.html">Библиотека</a></li>
+			<li><a href="blog.html">Блог</a></li>
+			<li><a href="completition.html">Конкурсы</a></li>
+			<li><a href="games.html">Игры</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="404.html">Аукцион &times;</a></li>
+            <li class="menu_item_reg">
+				<a  class="modal_login" href="#">Вход</a> <span> | </span>
+				<a class="modal_reg" href="#">Регистрация</a>
+			</li>
+        </ul>
+			<a href="#" class="menu_btn"><span></span></a>
+		<div class="alarm">
+			<img src="img/people1.png" alt="" class="alarm_img">
+			<p class="alarm_txt">Виктория Андреева подтвердила ваш запрос в друзья</p>
+			<p class="all_alarm">Все оповещения (7)</p>
+		</div>
+	</div>
+</header>
+<div class="modal_layer"></div>
+	<div class="modal modal_login_form">
+		<div class="modal_form_input">
+	        <h3 class="modal_title">Вход</h3>
+	        <p class="modal_paragraph">Войдите чтобы воспользоваться всеми преимуществами портала Ньюкленд</p>
+	        <form action="" class="modal_form" method="get">	
+		        <input  type="text" placeholder="Логин" value="Anet Dellyn " >
+		        <input  type="password" placeholder="Пароль" value="regeditssss">
+	        </form>
+	        	<a href="user.html" class="btn">Войти</a>
+	       	<div class="modal_or">
+	        	<p class="section_paragraph">Еще нет аккаунта?</p>
+	        	<a class="modal_link" href="admin.html">Зарегистрируйтесь</a>
+	        </div>
+	       		<div class="blog_layer">
+					<div class="blog_line"></div>
+					<h3 class="blog_small_title">Вход через</h3>
+				</div>
+	        <div class="social_link">	
+				<div class="social_circle"><i class="fab fa-facebook"></i></div>
+				<div class="social_circle"><i class="fab fa-instagram"></i></div>
+			</div>
+		</div>
+		<div class="modal_bg">
+	  		<img src="img/nuk.png" alt="" class="modal_img">
+		</div>
+	</div>
+	<div class="modal modal_reg_form">
+		<div class="modal_form_input">
+	        <h3 class="modal_title">Регистрация</h3>
+	        <p class="modal_paragraph">Зарегистрируйтесь чтобы воспользоваться всеми преимуществами портала Ньюкленд</p>
+			<form action="" class="modal_form" method="get">
+		        <input  type="text" placeholder="Логин" value="IngvarMakarchuk">
+		        <input  type="email" placeholder="Е-почта" value="dellyn@my.com">
+		        <input  type="password" placeholder="Пароль" value="parolforashkere">
+		        <input  type="password" placeholder="Повторите пароль" value="parolforashkere"  >
+			</form>
+
+	        <a href="admin.html" class="btn">Регистрация</a>
+	        <div class="modal_or">
+	          <p class="section_paragraph">Уже есть аккаунт?</p>
+	          <a class="modal_link" href="#">Войдите</a>
+	         
+	        </div>
+	       		<div class="blog_layer">
+					<div class="blog_line"></div>
+					<h3 class="blog_small_title">Регистрация через</h3>
+				</div>
+	        <div class="social_link">	
+				<div class="social_circle"><i class="fab fa-facebook"></i></div>
+				<div class="social_circle"><i class="fab fa-instagram"></i></div>
+			</div>
+		</div>
+		<div class="modal_bg">
+	  		<img src="img/nuk.png" alt="" class="modal_img">
+		</div>
+	</div>
+
+	<section class="contest contest2">
+		<div class="container">
+			<h2 class="contest2_title">Литературные конкурсы</h2>
+			<p class="contest_paragraph section_paragraph">На нашем сайте вы и ваши дети можете принять участие в конкурсах и выиграть ценные призы</p>
+			<div class="contest_block">
+				<div class="contest_info">
+					<img src="img/contest_img2.jpg" alt="" class="info_bg">
+					<div class="info_center clearfix">
+						<div class="info_layer">
+							<p class="info_top_txt">До окончания конкурса</p>
+							<div id="CDT" class="otshet"></div>
+						</div>
+						<h3 class="center_title">“Молодые литературные таланты”</h3>
+						<p class="center_paragraph">Конкурс «Молодые литературные таланты» проводится с целью выявления и поддержки талантливых детей, подростков и юношества; повышения интереса к творческой деятельности в области изобразительного искусства.</p>
+						<i class="fas fa-users"><span>9</span></i>
+						<div class="info_layer">
+							<a href="#" class="btn">Принять участие</a>
+							<p class="btn_txt">Подробнее</p>
+						</div>
+					</div>		
+				</div>
+				<div class="contest_place">
+					<img src="img/place.png" alt="" class="place_img">
+					<p><b>1 место:</b></p>	
+					<p>- Статуэтка «Золотой Ньюк»</p>
+					<p>- Диплом Лауреата</p>
+					<p>- 100 000 рублей</p>
+					<p><b>2 место:</b></p>	
+					<p>- Диплом Лауреата</p>
+					<p>- 20 000 рублей</p>
+					<p><b>3 место</b>:</p>	
+					<p>- Диплом Лауреата</p>
+					<p>- 10 000 рублей</p>
+					<p><b>4-10 место:</b></p>	
+					<p>- Диплом Лауреата</p>
+					<p>- 5 000 рублей</p>
+				</div>
+		</div>
+			<div class="people_part people_part2">
+
+					<div class="people_content">
+						<div class="people_heart">
+							<i class="fa fa-heart"><span>78</span></i>
+						</div>
+						<a href="" class="people_learn_txt people_learn_txt2">Читать</a>
+		                <div class="people_icon">
+		                	<img src="img/people_part1.png" alt="" class="people_img2">
+		                    <svg class="circle_svg" viewBox="0 0 328 328">
+		                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+		                    </svg>
+						</div>
+						<div class="line_grey line_grey_center"></div>
+		                <p class="people_name">Вика Добринина</p>
+		                <p class="people_info">Теплый летний вечер. Львов</p>
+						<a href="" class="people_btn btn">Профиль</a>
+		                <div class="people_pop">
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+		                	<div class="line_grey"></div>
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+
+		                </div>
+					</div>
+
+			
+					<div class="people_content">
+						<div class="people_heart">
+							<i class="fa fa-heart"><span>340</span></i>
+						</div>
+						<a href="" class="people_learn_txt people_learn_txt2">Читать</a>
+
+		                <div class="people_icon">
+		                	<img src="img/people_part2.png" alt="" class="people_img2">
+		                    <svg class="circle_svg" viewBox="0 0 328 328">
+		                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+		                    </svg>
+						</div>
+						<div class="line_grey line_grey_center"></div>
+		                <p class="people_name">Даша Карпачова</p>
+		                <p class="people_info">Доброе утро. Киев</p>
+						<a href="" class="people_btn btn">Профиль</a>
+		                <div class="people_pop">
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+		                	<div class="line_grey"></div>
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+
+		           	     </div>
+					</div>
+	
+					<div class="people_content">
+					<div class="people_heart">
+						<i class="fa fa-heart"><span>112</span></i>
+					</div>
+					<a href="" class="people_learn_txt people_learn_txt2">Читать</a>
+
+	                <div class="people_icon">
+	                	<img src="img/people_part3.png" alt="" class="people_img2">
+	                    <svg class="circle_svg" viewBox="0 0 328 328">
+	                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+	                    </svg>
+					</div>
+					<div class="line_grey line_grey_center"></div>
+	                <p class="people_name">Иван Рожденской</p>
+	                <p class="people_info">Весенняя сказка. Крым</p>
+					<a href="" class="people_btn btn">Профиль</a>
+	                <div class="people_pop">
+	                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+	                	<div class="line_grey"></div>
+	                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+
+	                </div>
+				</div>
+
+
+					<div class="people_content">
+						<div class="people_heart">
+							<i class="fa fa-heart"><span>912</span></i>
+						</div>
+						<a href="" class="people_learn_txt people_learn_txt2">Читать</a>
+
+		                <div class="people_icon">
+		                	<img src="img/people_part4.png" alt="" class="people_img2">
+		                    <svg class="circle_svg" viewBox="0 0 328 328">
+		                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+		                    </svg>
+						</div>
+						<div class="line_grey line_grey_center"></div>
+		                <p class="people_name">Марина Стручкова</p>
+		                <p class="people_info">Цветочные сны и реальность. Киев</p>
+						<a href="" class="people_btn btn">Профиль</a>
+		                <div class="people_pop">
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+		                	<div class="line_grey"></div>
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+
+		                </div>
+					</div>
+
+
+					<div class="people_content">
+						<div class="people_heart">
+							<i class="fa fa-heart"><span>912</span></i>
+						</div>
+						<a href="" class="people_learn_txt people_learn_txt2">Читать</a>
+
+		                <div class="people_icon">
+		                	<img src="img/people_part4.png" alt="" class="people_img2">
+		                    <svg class="circle_svg" viewBox="0 0 328 328">
+		                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+		                    </svg>
+						</div>
+						<div class="line_grey line_grey_center"></div>
+		                <p class="people_name">Марина Стручкова</p>
+		                <p class="people_info">Цветочные сны и реальность. Киев</p>
+						<a href="" class="people_btn btn">Профиль</a>
+		                <div class="people_pop">
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+		                	<div class="line_grey"></div>
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+
+		                </div>
+					</div>
+
+
+					<div class="people_content">
+						<div class="people_heart">
+							<i class="fa fa-heart"><span>912</span></i>
+						</div>
+						<a href="" class="people_learn_txt people_learn_txt2">Читать</a>
+
+		                <div class="people_icon">
+		                	<img src="img/people_part4.png" alt="" class="people_img2">
+		                    <svg class="circle_svg" viewBox="0 0 328 328">
+		                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+		                    </svg>
+						</div>
+						<div class="line_grey line_grey_center"></div>
+		                <p class="people_name">Марина Стручкова</p>
+		                <p class="people_info">Цветочные сны и реальность. Киев</p>
+						<a href="" class="people_btn btn">Профиль</a>
+		                <div class="people_pop">
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+		                	<div class="line_grey"></div>
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+
+		                </div>
+					</div>
+
+				
+			</div>
+		</div>
+	</div>
+	</section>
+	<section class="archive">
+		<div class="container">
+			<h2 class="archive_title">Архив</h2>
+			<p class="section_paragraph">Здесь можно просмотреть архив прошлых фотоконкурсов, участников и победителей</p>
+			
+			
+			<div class="contest_nav">
+					<div class="cn_nav_li">
+						<div class="archive_time">
+							<div class="arch_info">
+								<p class="arch_end">Окончен</p>
+								<p class="arch_txt">“Как я проведу свои летние каникулы. Мои планы”</p>
+							</div>
+							<div class="arch_all_time">
+								<div class="arch_about">
+									<i class="fa fa-time"></i>30.04.2019 - 15.05.2019
+								</div>
+								<div class="arch_about">
+									<i class="fa fa-users"></i>219
+								</div>
+								<div class="arch_about">
+									<i class="fa fa-trophy"></i> 3
+								</div>
+								<div class="show_more arch_about">О конкурсе</div>
+							</div>
+						</div>
+					<div class="contest_nav_item">
+							<div class=" people_part_column">
+				<div class="people_part_first people_part2">	
+					<div class="people_content">
+						<div class="people_heart">
+							<i class="fa fa-heart"><span>78</span></i>
+						</div>
+						<a href="" class="people_learn_txt">Читать</a>
+						<div class="people_trophy">	
+								<p class="people_trophy_txt">МЕСТО</p>
+								<i class="fa fa-trophy"></i>
+								<span class="number_place">1</span>	
+						</div>
+		                <div class="people_icon">
+		                	<img src="img/people1.png" alt="" class="people_img2">
+		                    <svg class="circle_svg" viewBox="0 0 328 328">
+		                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+		                    </svg>
+						</div>
+						<div class="line_grey line_grey_center"></div>
+		                <p class="people_name">Юлия Антонова</p>
+		                <p class="people_info">Теплый летний вечер. Львов</p>
+						<a href="" class="people_btn btn">Профиль</a>
+		                <div class="people_pop">
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+		                	<div class="line_grey"></div>
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+		                </div>
+					</div>
+					<div class="people_content">
+						<div class="people_heart">
+							<i class="fa fa-heart"><span>78</span></i>
+						</div>
+						<a href="" class="people_learn_txt">Читать</a>
+						<div class="people_trophy">	
+								<p class="people_trophy_txt">МЕСТО</p>
+								<i class="fa fa-trophy"></i>
+								<span class="number_place">2</span>	
+						</div>
+		                <div class="people_icon">
+		                	<img src="img/people5.png" alt="" class="people_img2">
+		                    <svg class="circle_svg" viewBox="0 0 328 328">
+		                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+		                    </svg>
+						</div>
+						<div class="line_grey line_grey_center"></div>
+		                <p class="people_name">Марина Солнечникова</p>
+		                <p class="people_info">Моя любимая Айра! Минск</p>
+						<a href="" class="people_btn btn">Профиль</a>
+		                <div class="people_pop">
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+		                	<div class="line_grey"></div>
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+		                </div>
+					</div>		
+					<div class="people_content">
+						<div class="people_heart">
+							<i class="fa fa-heart"><span>78</span></i>
+						</div>
+						<a href="" class="people_learn_txt">Читать</a>
+						<div class="people_trophy">	
+								<p class="people_trophy_txt">МЕСТО</p>
+								<i class="fa fa-trophy"></i>
+								<span class="number_place">3</span>	
+						</div>
+		                <div class="people_icon">
+		                	<img src="img/people3.png" alt="" class="people_img2">
+		                    <svg class="circle_svg" viewBox="0 0 328 328">
+		                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+		                    </svg>
+						</div>
+						<div class="line_grey line_grey_center"></div>
+		                <p class="people_name">Ольга Карлова</p>
+		                <p class="people_info">А это наш Чарли, он что-то натворил! Киев</p>
+						<a href="" class="people_btn btn">Профиль</a>
+		                <div class="people_pop">
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+		                	<div class="line_grey"></div>
+		                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+		                </div>
+					</div>	
+				</div>
+				<!-- Add to style display block                    \/        -->
+				<div class="people_part_second people_part2" style="">	
+					<div>
+						<div class="people_content">
+							<div class="people_heart">
+								<i class="fa fa-heart"><span>78</span></i>
+							</div>
+							<a href="" class="people_learn_txt">Читать</a>
+							<div class="people_trophy">	
+									<p class="people_trophy_txt">МЕСТО</p>
+									<i class="fa fa-trophy"></i>
+									<span class="number_place">4</span>	
+							</div>
+			                <div class="people_icon">
+			                	<img src="img/people4.png" alt="" class="people_img2">
+			                    <svg class="circle_svg" viewBox="0 0 328 328">
+			                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+			                    </svg>
+							</div>
+							<div class="line_grey line_grey_center"></div>
+			                <p class="people_name">Тимур Алексеев</p>
+			                <p class="people_info">Друг моей дочери :) Одесса</p>
+							<a href="" class="people_btn btn">Профиль</a>
+			                <div class="people_pop">
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+			                	<div class="line_grey"></div>
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+			                </div>
+						</div>
+					</div>
+					<div>
+						<div class="people_content">
+							<div class="people_heart">
+								<i class="fa fa-heart"><span>78</span></i>
+							</div>
+							<a href="" class="people_learn_txt">Читать</a>
+							<div class="people_trophy">	
+									<p class="people_trophy_txt">МЕСТО</p>
+									<i class="fa fa-trophy"></i>
+									<span class="number_place">5</span>	
+							</div>
+			                <div class="people_icon">
+			                	<img src="img/people2.png" alt="" class="people_img2">
+			                    <svg class="circle_svg" viewBox="0 0 328 328">
+			                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+			                    </svg>
+							</div>
+							<div class="line_grey line_grey_center"></div>
+			                <p class="people_name">Карина Малевич</p>
+			                <p class="people_info">Пушистая и замечательная Лая. Тернополь</p>
+							<a href="" class="people_btn btn">Профиль</a>
+			                <div class="people_pop">
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+			                	<div class="line_grey"></div>
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+			                </div>
+						</div>	
+					</div>	
+					<div>
+						<div class="people_content">
+							<div class="people_heart">
+								<i class="fa fa-heart"><span>78</span></i>
+							</div>
+							<a href="" class="people_learn_txt">Читать</a>
+							<div class="people_trophy">	
+									<p class="people_trophy_txt">МЕСТО</p>
+									<i class="fa fa-trophy"></i>
+									<span class="number_place">6</span>	
+							</div>
+			                <div class="people_icon">
+			                	<img src="img/people6.png" alt="" class="people_img2">
+			                    <svg class="circle_svg" viewBox="0 0 328 328">
+			                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+			                    </svg>
+							</div>
+							<div class="line_grey line_grey_center"></div>
+			                <p class="people_name">Мила Варламова</p>
+			                <p class="people_info">Тот кто всегда ворует печенье! Луцк</p>
+							<a href="" class="people_btn btn">Профиль</a>
+			                <div class="people_pop">
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+			                	<div class="line_grey"></div>
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+			                </div>
+						</div>	
+					</div>
+					<div>
+						<div class="people_content">
+							<div class="people_heart">
+								<i class="fa fa-heart"><span>78</span></i>
+							</div>
+							<a href="" class="people_learn_txt">Читать</a>
+							<div class="people_trophy">	
+									<p class="people_trophy_txt">МЕСТО</p>
+									<i class="fa fa-trophy"></i>
+									<span class="number_place">7</span>	
+							</div>
+			                <div class="people_icon">
+			                	<img src="img/people7.png" alt="" class="people_img2">
+			                    <svg class="circle_svg" viewBox="0 0 328 328">
+			                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+			                    </svg>
+							</div>
+							<div class="line_grey line_grey_center"></div>
+			                <p class="people_name">Анна Манко</p>
+			                <p class="people_info">Знакомьтесь, Феликс. Житомир</p>
+							<a href="" class="people_btn btn">Профиль</a>
+			                <div class="people_pop">
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+			                	<div class="line_grey"></div>
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+			                </div>
+						</div>	
+					</div>
+					<div>
+						<div class="people_content">
+							<div class="people_heart">
+								<i class="fa fa-heart"><span>78</span></i>
+							</div>
+							<a href="" class="people_learn_txt">Читать</a>
+							<div class="people_trophy">	
+									<p class="people_trophy_txt">МЕСТО</p>
+									<i class="fa fa-trophy"></i>
+									<span class="number_place">8</span>	
+							</div>
+			                <div class="people_icon">
+			                	<img src="img/people5.png" alt="" class="people_img2">
+			                    <svg class="circle_svg" viewBox="0 0 328 328">
+			                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+			                    </svg>
+							</div>
+							<div class="line_grey line_grey_center"></div>
+			                <p class="people_name">Вика Добринина</p>
+			                <p class="people_info">Теплый летний вечер. Львов</p>
+							<a href="" class="people_btn btn">Профиль</a>
+			                <div class="people_pop">
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+			                	<div class="line_grey"></div>
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+			                </div>
+						</div>
+					</div>	
+					<div>
+						<div class="people_content">
+							<div class="people_heart">
+								<i class="fa fa-heart"><span>78</span></i>
+							</div>
+							<a href="" class="people_learn_txt">Читать</a>
+							<div class="people_trophy">	
+									<p class="people_trophy_txt">МЕСТО</p>
+									<i class="fa fa-trophy"></i>
+									<span class="number_place">9</span>	
+							</div>
+			                <div class="people_icon">
+			                	<img src="img/people_part3.png" alt="" class="people_img2">
+			                    <svg class="circle_svg" viewBox="0 0 328 328">
+			                        <path class="st0" d="M164.38 2c89.296.205 161.62 72.656 161.62 162 0 89.47-72.53 162-162 162s-162-72.53-162-162 72.53-162 162-162M164 2h.38"/>
+			                    </svg>
+							</div>
+							<div class="line_grey line_grey_center"></div>
+			                <p class="people_name">Вика Добринина</p>
+			                <p class="people_info">Теплый летний вечер. Львов</p>
+							<a href="" class="people_btn btn">Профиль</a>
+			                <div class="people_pop">
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Номинация:</span>Проза</p>
+			                	<div class="line_grey"></div>
+			                	<p class="people_pop_txt"><i class="fa fa-star"></i><span>Категория:</span>«Младшая» (11-14)</p>
+			                </div>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+					</div>
+					</div>
+				<div class="cn_nav_li">
+					<div class="archive_time ">
+						<div class="arch_info">
+							<p class="arch_end">Окончен</p>
+							<p class="arch_txt">“Мой домашний любимец”</p>
+						</div>
+						<div class="arch_all_time">
+							<div class="arch_about">
+								<i class="fa fa-time"></i>30.04.2019 - 15.05.2019
+							</div>
+							<div class="arch_about">
+								<i class="fa fa-users"></i>219
+							</div>
+							<div class="arch_about">
+								<i class="fa fa-trophy"></i> 3
+							</div>
+							<div class="show_more arch_about">О конкурсе</div>
+						</div>
+					</div>
+				
+				</div>
+
+				<div class="cn_nav_li">
+					<div class="archive_time">
+						<div class="arch_info">
+							<p class="arch_end">Окончен</p>
+							<p class="arch_txt">“Заглянуть в будущее”</p>
+						</div>
+						<div class="arch_all_time">
+							<div class="arch_about">
+								<i class="fa fa-time"></i>01.03.2019 - 30.04.2019
+							</div>
+							<div class="arch_about">
+								<i class="fa fa-users"></i>590
+							</div>
+							<div class="arch_about">
+								<i class="fa fa-trophy"></i> 3
+							</div>
+							<div class="show_more arch_about">О конкурсе</div>
+						</div>
+					</div>
+				
+				</div>
+				<div class="cn_nav_li">
+					<div class="archive_time">
+						<div class="arch_info">
+							<p class="arch_end">Окончен</p>
+							<p class="arch_txt">“Семья - ценный клад в жизни человека”</p>
+						</div>
+						<div class="arch_all_time">
+							<div class="arch_about">
+								<i class="fa fa-time"></i>01.03.2019 - 30.03.2019
+							</div>
+							<div class="arch_about">
+								<i class="fa fa-users"></i>279
+							</div>
+							<div class="arch_about">
+								<i class="fa fa-trophy"></i> 6
+							</div>
+							<div class="show_more arch_about">О конкурсе</div>
+						</div>
+					</div>
+				</div>
+				<div class="cn_nav_li">
+					<div class="archive_time">
+						<div class="arch_info">
+							<p class="arch_end">Окончен</p>
+							<p class="arch_txt">“Мой новейшее изобретение. Полет фантазий”</p>
+						</div>
+						<div class="arch_all_time">
+							<div class="arch_about">
+								<i class="fa fa-time"></i>01.03.2019 - 30.03.2019
+							</div>
+							<div class="arch_about">
+								<i class="fa fa-users"></i>184
+							</div>
+							<div class="arch_about">
+								<i class="fa fa-trophy"></i> 6
+							</div>
+							<div class="show_more arch_about">О конкурсе</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+	<div class="container">
+		<div class="footer_layer">	
+			<div class="footer_info">
+				<h2 class="footer_title">Ньюкленд</h2>
+				<p class="footer_paragraph">Основная цель нашего проекта – раскрыть таланты ребенка. Проявить его первые достижения и успехи на конкурсах. Научить ставить перед собой цели и стремиться достичь их.</p>	
+			</div>
+			<div class="footer_subscribe">
+				<p class="subscribe_txt">Подписка на новости</p>
+				<form action="" class="form" method="get">
+					<p><input type="text" name="email" placeholder="Е-почта" class="email"></p>
+					<p><input value="Подписаться" type="submit" class="submit btn"></p>
+				</form>
+			</div>
+			<div class="footer_menu">
+				<nav class="menu_table">
+					<p class="menu_txt">Меню</p>
+					<a href="index.html" class="footer_menu_link">Главная</a>
+					<a href="about.html" class="footer_menu_link">О проекте</a>
+					<a href="library.html" class="footer_menu_link">Библиотека </a>
+					<a href="blog.html" class="footer_menu_link">Блог</a>
+				</nav>
+				<nav class="menu_table">
+					<a href="completition.html" class="footer_menu_link">Конкурсы</a>
+					<a href="library-admin.html" class="footer_menu_link">Аукцион</a>
+					<a href="games.html" class="footer_menu_link">Игры </a>
+					<a href="faq.html" class="footer_menu_link">FAQ</a>
+				</nav>
+				<nav class="menu_table">
+					<a href="user.html" class="footer_menu_link">Мой профиль</a>
+					<a href="#" class=" modal_login footer_menu_link">Регистрация</a>
+					<a href="#" class=" modal_reg footer_menu_link">Вход</a>
+				</nav>
+				<div class="social_link">	
+					<a class="social_circle"><i class="fab fa-facebook"></i></a>
+					<a class="social_circle"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="footer_cont">	
+			<div class="line_grey"></div>
+			<div class="container">
+				<p class="secure">2019. Ньюкленд. Все права защищены</p>
+				<p class="dev">Разработка сайта: <a href="https://www.linkedin.com/in/igor-makarchuk-491069192/">Igor Makarchuk</a></p>
+			</div>
+		</div>
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/parallax-mouse.js"></script>
+<script src="js/timer.js"></script></script>
+<script src="js/scripts.js"></script>
+
+
+
+</body>
+</html>
+	</body>
+	</html>
